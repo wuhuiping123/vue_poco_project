@@ -1,0 +1,143 @@
+.download_page{
+	background: url(../img/download-bg-01.jpg) no-repeat #15141a;
+	background-size: 100%;
+	overflow: hidden;
+	padding-top: 64px;
+	padding-bottom: 20px;
+}
+.dl_logo{
+	background: url(../img/download-logo.png);
+	width: 247px;
+    height: 60px;
+    margin: 0 auto;
+    background-size: 247px 60px;
+}
+.dl_title{
+	background: url(../img/download-title.png);
+	width: 247px;
+	height: 15px;
+	margin: 24px auto 46px;
+	background-size: 247px 15px;
+}
+.dl_button{
+	background: url(../img/download-now.png);
+	width: 210px;
+    height: 40px;
+    padding-right: 1px;
+    margin: 0 auto;
+    background-size: 210px 40px;
+}
+.dl_p1{
+	background: url(../img/download-p1.png) no-repeat;
+	width: 197px;
+	height: 393px;
+    margin: 51px auto 0;
+    background-size: 100%;
+}
+.dl_p2{
+	width: 300px;
+    height: 287px;
+    margin: 67px auto 0;
+    position: relative;
+}
+.dl_pic{
+	position: absolute;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+}
+.dl_txt{
+	display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    color: transparent;
+    background-repeat: no-repeat;
+}
+.dl_p2>span{
+	background: url(../img/download-p2.png);
+    background-size: 100%;
+	width: 148px;
+    height: 287px;
+}
+.dl_p2>i{
+	background: url(../img/download-p2-txt.png);
+	background-size: 100%;
+	width: 126px;
+    height: 58px;
+    margin-top: -29px;
+}
+.dl_p3{
+	width: 320px;
+    height: 287px;
+    margin: 42px auto 0;
+    position: relative;
+}
+.dl_p3>span{
+	background: url(../img/download-p3.png);
+    background-size: 100%;
+	width: 148px;
+    height: 287px;
+    left: auto;
+    right: 0;
+}
+.dl_p3>i{
+	background: url(../img/download-p3-txt.png);
+	background-size: 100%;
+	width: 162px;
+    height: 58px;
+    margin-top: -29px;
+    left: 0;
+    right: auto;
+}
+
+.dl_p4{
+	width: 320px;
+    height: 287px;
+    margin: 30px auto 0;
+    position: relative;
+}
+.dl_p4>span{
+	background: url(../img/download-p4.png);
+    background-size: 100%;
+	width: 148px;
+    height: 287px;
+}
+.dl_p4>i{
+	background: url(../img/download-p4-txt.png);
+	background-size: 100%;
+	width: 170px;
+    height: 57px;
+    margin-top: -29px;
+}
+.dl_p5{
+	width: 320px;
+    height: 287px;
+    margin: 42px auto 0;
+    position: relative;
+}
+.dl_p5>span{
+	background: url(../img/download-p3.png);
+    background-size: 100%;
+	width: 148px;
+    height: 287px;
+    left: auto;
+    right: 0;
+}
+.dl_p5>i{
+	background: url(../img/download-p3-txt.png);
+	background-size: 100%;
+	width: 162px;
+    height: 58px;
+    margin-top: -29px;
+    left: 0;
+    right: auto;
+}
+
+.dl_footer{
+	font-size: 10px;
+    color: #aaa;
+    text-align: center;
+    margin-top: 31px;
+    line-height: 23px;
+}

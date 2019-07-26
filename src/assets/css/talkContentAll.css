@@ -1,0 +1,46 @@
+.skill-list{
+	display: block;
+	margin: 0 10px;
+	/*background-color: pink;*/
+}
+.skill-item a{
+	display: block;
+    margin-top: 25px;
+    position: relative;
+    height: 60px;
+    padding-left: 70px;
+}
+.skill-item a h3{
+	color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    line-height: 19px;
+    max-height: 39px;
+    overflow: hidden;
+    word-break: break-all;
+    white-space: normal;
+}
+.skill-item a .sdate{
+	font-size: 12px;
+    color: #aaa;
+    display: block;
+    position: absolute;
+    left: 70px;
+    bottom: 0;
+}
+.skill-item a .simg{
+	display: block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(238, 238, 238);
+}
+.skill-item a .simg img{
+	display: block;
+	width: 100%;
+	height: auto;
+}

@@ -1,0 +1,229 @@
+/*header {
+		background-color: #000;
+		color: #fff;
+		/*padding: 10px;
+		text-align: center;
+		position: relative;
+	}
+	header i{
+		position: absolute;
+		left: 10px;
+		top: 12px;
+		font-size: 22px;
+	}
+	header span:nth-of-type(1){
+		font-size: 18px;
+	}
+	header span:nth-of-type(2){
+		position: absolute;
+		right: 20px;
+		font-size: 15px;
+		padding-top: 2px;
+	}*/
+
+
+/*登录*/
+
+.loginBody {
+	padding: 25px;
+	/*background-color: pink;*/
+}
+
+.loginBody .loginInfo {
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.loginBody .loginInfo input {
+	width: 100%;
+	font-size: 15px;
+	padding: 13px;
+	border: 1px solid #E6E6E6;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.loginBody .loginInfo input[type="text"] {
+	border-bottom: none;
+	border-radius: 4px 4px 0 0;
+}
+
+.loginBody .loginInfo input[type="password"] {
+	border-radius: 0 0 4px 4px;
+}
+
+.loginBody button {
+	color: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	border: 0;
+	padding: 10px 0;
+	font-size: 18px;
+	border-radius: 4px;
+	outline: none;
+	background-color: #444;
+}
+
+.otherLogin {
+	/*background-color: yellow;*/
+	padding-top: 30px;
+	text-align: center;
+	font-size: 11px;
+	color: #666;
+	overflow: hidden;
+}
+
+.otherLogin span {
+	padding: 0 8px 15px 8px;
+}
+
+.otherLogin ul {
+	width: 50%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.otherLogin ul li {
+	display: inline-block;
+	/*background-color: red;*/
+	float: left;
+	border-radius: 50%;
+	margin: 0 5px 0 10px;
+}
+
+.otherLogin ul li i {
+	display: inline-block;
+	padding: 18px;
+	font-size: 28px;
+	color: #fff;
+}
+
+.otherLogin ul li:nth-of-type(1) {
+	background-color: #30d0ff;
+}
+
+.otherLogin ul li:nth-of-type(2) {
+	background-color: #fe6258;
+}
+/*.loginBody .loginBtn{
+	background-color: #444;
+}*/
+.loginBody .loginBtn:hover{
+	background-color: #111;
+}
+
+.msgBoxUser,.msgBoxPass,.msgbox{
+	position: fixed;
+	width: 50%;
+	height: auto;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 0 auto;
+	font-size: 13px;
+	bottom: 40%;
+	left: 25%;
+	box-sizing: border-box;
+	text-align: center;
+	overflow: hidden;
+	background:rgba(0,0,0,0.5);
+	opacity: 0;
+	/*display: none;*/
+}
+
+/*注册*/
+
+.registerBody {
+	padding: 25px;
+	/*background-color: pink;*/
+}
+
+.registerBody .registerInfo {
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.registerBody .registerInfo p {
+	/*background-color: pink;*/
+	width: 100%;
+	font-size: 15px;
+	border: 1px solid #E6E6E6;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.registerBody .registerInfo input[type="text"] {
+	font-size: 15px;
+	padding: 13px;
+	border: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.registerBody .registerInfo p:nth-of-type(1) span {
+	color: #2c72ac;
+	/*background-color: cornflowerblue;*/
+	padding: 3px 15px;
+	margin-top: 8px;
+	border-right: 1px solid #E6E6E6;
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.registerBody .registerInfo p:nth-of-type(1) input {
+	width: 80%;
+}
+
+.registerBody .registerInfo p:nth-of-type(2) span {
+	color: #2c72ac;
+	/*background-color: cornflowerblue;*/
+	padding: 3px 15px;
+	border-left: 1px solid #E6E6E6;
+	width: 34%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.registerBody .registerInfo p:nth-of-type(2) input {
+	width: 66%;
+}
+
+.registerBody .registerInfo input[type="password"] {
+	width: 100%;
+	font-size: 15px;
+	padding: 13px;
+	border: 1px solid #E6E6E6;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.registerBody button {
+	background-color: #444;
+	color: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	border: 0;
+	padding: 10px 0;
+	font-size: 18px;
+	border-radius: 4px;
+	outline: none;
+}
+
+.registerBody .agm {
+	padding-top: 25px;
+	font-size: 12px;
+	color: #999;
+}
+
+.registerBody .agm span {
+	color: #2c72ac;
+}
+
+
+
+

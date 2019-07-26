@@ -1,0 +1,125 @@
+	.animated{
+		animation-duration:0.5s;
+	}
+	.sidebar{
+		z-index: 10;
+		position: fixed;
+		/*top: 0;*/
+		left: 0;
+		width: 80%;
+		height: 100%;
+		background-color: #333;
+		color: #fff;
+	}
+	.mask{
+		z-index: 9;
+		position: fixed;
+		/*top: 0;*/
+		right: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(7,17,27,0.6);
+	}
+	.fade-enter,.fade-leave-to{
+		opacity: 0;
+	}
+	.fade-enter-active,.fade-leave-active{
+		transition: all 0.5s;
+	}
+	.fade-enter-to,.fade-leave{
+		opacity: 1;
+	}
+	
+	.sidebarHeader{
+		/*background-color: pink;*/
+		padding: 15px 30px;
+	}
+	.sidebarHeader i{
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		background: url(../../assets/img/siderbar-icon-user.png) no-repeat;
+		background-size: cover;
+		vertical-align: middle;
+	}
+	.sidebarHeader span{
+		display: inline-block;
+		margin-left: 10px;
+		font-size: 15px;
+		color: #fff;
+	}
+	
+	.sidebarContent{
+		font-size: 15px;
+	}
+	.sidebarContent li{
+		/*background-color: greenyellow;*/
+		padding: 12px 30px;
+		/*border-left: 3px solid #303031;*/
+		
+	}
+	.sidebarContent a{
+		display: block;
+		/*width: 100%;*/
+	}
+	.sidebarContent span{
+		margin-left: 10px;
+		color: #fff;
+	}
+	.sidebarContent i{
+		background-size: 19px 19px;
+		padding: 10px;
+		padding-top:0px;
+	}
+	.sidebarContent .icon-index{
+		background: url(../../assets/img/siderbar-icon-index.png) no-repeat;
+		background-size: 19px 19px;
+	}
+	.sidebarContent .icon-works{
+		background: url(../../assets/img/siderbar-icon-works.png) no-repeat;
+		background-size: 19px 19px;
+	}
+	.sidebarContent .icon-picture{
+		background: url(../../assets/img/siderbar-icon-picture.png) no-repeat;
+		background-size: 19px 19px;
+	}
+	.sidebarContent .icon-skill{
+		background: url(../../assets/img/siderbar-icon-skill.png) no-repeat;
+		background-size: 19px 19px;
+	}
+	.sidebarContent .icon-talk{
+		background: url(../../assets/img/siderbar-icon-talk.png) no-repeat;
+		background-size: 19px 19px;
+	}
+	.sidebarContent .icon-limit{
+		background: url(../../assets/img/siderbar-icon-limit.png) no-repeat;
+		background-size: 19px 19px;
+	}
+	.sidebarContent .icon-iden{
+		background: url(../../assets/img/siderbar-icon-iden.png) no-repeat;
+		background-size: 19px 19px;
+	}
+	
+	.sidebarFooter{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		
+	}
+	.sidebarFooter a{
+		background: url(../../assets/img/sidebar-appLoad.png) no-repeat 0 10px;
+		background-size: auto 36px;
+		display: block;
+		margin-left: 30px;
+		/*padding-bottom: 100px;*/
+		height: 100px;
+		border-top: 1px solid #282829;
+	}
+	.sidebarFooter i{
+		display: block;
+		background: url(../../assets/img/sidebar-next.png) no-repeat;
+		padding: 10px;
+		float: right;
+		margin-top: 18px;
+	}

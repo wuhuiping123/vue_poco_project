@@ -1,0 +1,111 @@
+.page-tabbar{
+	margin-top: 44px;
+}
+.mint-navbar .mint-tab-item {
+    padding: 10px 0;
+}
+.mint-navbar .mint-tab-item.is-selected {
+    border:0;
+    color: #2c72ac;
+    margin-bottom: 0;
+    /*background-color: yellow;*/
+}
+.mint-navbar .mint-tab-item.is-selected span{
+	/*background-color: red;*/
+	padding: 5px 0;
+	border-bottom: 2px solid #2c72ac;
+	/*box-sizing: border-box;*/
+}
+.mint-tab-item-label{
+	font-size: 14px;
+}
+
+.mint-navbar{
+	margin-top: 44px;
+}
+.mint-tab-container{
+	padding-top: 36px;
+	overflow: hidden;
+}
+
+/*高度宽度不一的图片均可以以背景图片的形式呈正方形排列*/
+.tabContain-list{
+    overflow:hidden;
+}
+.tabContain-list .tabContain-item{
+    float:left;
+    overflow:hidden;
+    width:33%;
+    height:33%;
+    margin: 0 0.2% 0.2% 0;
+}
+.tabContain-list .tabContain-item .tabContain-rl{
+    display:block;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.zoomImage{
+    display:block;
+    width:100%;
+    height:0;
+    padding-bottom: 100%;
+    overflow:hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.album-wrap{
+	display: block;
+	/*padding-bottom: 50px;*/
+	/*background-color: pink;*/
+	overflow: hidden;
+	width: 100%;
+}
+.album-wrap .album-item{
+	display: block;
+	width: 100%;
+	height: 190px;
+	overflow: hidden;
+	/*background-color: green;*/
+	position: relative;
+	
+}
+.album-wrap .album-item a{
+	width: 100%;
+	height: 100%;
+	/*position: relative;*/
+}
+.album-img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.album-img img{
+	width: 100%;
+	height: auto;
+}
+.album-shadow{
+	background: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	text-align: center;
+}
+.album-shadow dl{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+.album-shadow dl dt{
+	font-size: 28px;
+    padding-bottom: 12px;
+}
+.album-shadow dl dd{
+	font-size: 14px;
+}

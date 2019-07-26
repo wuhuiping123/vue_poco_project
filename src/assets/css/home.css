@@ -1,0 +1,335 @@
+/*part_swipe*/
+.part_swipe {
+	/*height: 140px;*/
+	width: 100%;
+	padding-bottom: 140px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 44px;
+}
+
+.mint-swipe {
+	width: 100%;
+	position: absolute;
+}
+.mint-swipe-item{
+	position: relative;
+}
+.mint-swipe-item a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*background-color: greenyellow;*/
+}
+.mint-swipe-item img {
+	width: 100%;
+}
+
+.mint-swipe-indicator {
+	border: 2px solid #fff;
+	border-radius: 50%;
+	opacity: 1;
+	/*width: 7px;
+	height: 7px;*/
+	box-sizing: border-box;
+	background-color: transparent;
+}
+
+/*part_list*/
+.part_list {
+	background-color: #fff;
+	height: 95px;
+	padding: 0 30px;
+}
+
+.part_list .list {
+	display: flex;
+}
+
+.part_list .list li {
+	/*让所有弹性盒模型对象的子元素都有相同的长度，且忽略它们内部的内容*/
+	flex: 1;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.part_list .list .list-icon {
+	width: 43px;
+	height: 43px;
+	margin: 0 auto;
+}
+
+.part_list .list .work {
+	background: url(../../assets/img/index-list-01.png);
+	background-size: cover;
+	/*把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。
+	 背景图像的某些部分也许无法显示在背景定位区域中。*/
+}
+
+.part_list .list .picture {
+	background: url(../../assets/img/index-list-02.png);
+	background-size: cover;
+}
+
+.part_list .list .skill {
+	background: url(../../assets/img/index-list-03.png);
+	background-size: cover;
+}
+
+.part_list .list .list-txt {
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+/*.part_hotRecommend*/
+.part_hotRecommend {
+	margin-top: 15px;
+	background-color: #fff;
+}
+
+.part_hotRecommend .title {
+	padding: 13px 12px;
+	font-size: 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.part_hotRecommend .list {
+	padding: 0 10px 10px;
+}
+
+.part_hotRecommend .list li {
+	margin-top: 10px;
+	background-color: #fff;
+	overflow: hidden;
+	width: 100%;
+}
+
+.part_hotRecommend .list img{
+	/*width: 70px;
+	height: 70px;*/
+	width: 20%;
+	float: left;
+}
+.part_hotRecommend .list p{
+	font-size: 15px;
+	color: #333;
+	float: left;
+	width: 70%;
+	padding: 10px 0 0 15px;	
+}
+
+
+/*part_hotPhotographer*/
+.part_hotPhotographer {
+	margin-top: 15px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.part_hotPhotographer .item-wrap{
+	overflow:hidden
+}
+.part_hotPhotographer .item{
+	overflow:hidden
+}
+.part_hotPhotographer .title {
+	padding: 13px 12px;
+	font-size: 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.part_hotPhotographer .base-personcard {
+	position: relative;
+	padding: 15px 10px 12px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.part_hotPhotographer .base-personcard .base-personhead {
+	width: 100%;
+	overflow: hidden;
+	padding-left: 42px;
+	box-sizing: border-box;
+}
+
+.part_hotPhotographer .base-personcard .base-personimg {
+	display: block;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-left: -42px;
+	border-radius: 32px;
+	overflow: hidden;
+}
+
+.part_hotPhotographer .base-personcard .base-personimg img {
+	opacity: 1;
+	display: block;
+	margin-left: auto;
+	height: auto;
+	width: 100%;
+	margin-top: 0px;
+}
+
+.part_hotPhotographer .base-personcard .base-personhead .p1 {
+	display: block;
+	padding-bottom: 2px;
+	color: #2c72ac;
+	font-size: 14px;
+	padding-right: 0;
+	line-height: 15px;
+	max-height: 30px;
+}
+
+.part_hotPhotographer .base-personcard .base-personhead .cc_user_name {
+	display: inline-block;
+	vertical-align: middle;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.part_hotPhotographer .base-personcard .base-personhead .cc_user_name.cc_icon_1 {
+	max-width: calc(100% - 23px);
+}
+
+.part_hotPhotographer .base-personcard .base-personhead .cc_verified {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+	line-height: 0;
+}
+
+.part_hotPhotographer .base-personcard .base-personhead .icon_best_pocoer {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 0 4px;
+	width: 14px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.part_hotPhotographer .base-personcard .base-personhead .icon_best_pocoer.icon_user_favourite {
+	background-image: url(../../assets/img/index-hpv-01.png);
+}
+
+.part_hotPhotographer .base-personcard .base-personhead .p2 {
+	color: #aaa;
+	display: block;
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.part_hotPhotographer .list {
+	overflow: hidden;
+}
+.part_hotPhotographer .list a{
+	/*height: 125px;*/
+	width: 33%;
+}
+.part_hotPhotographer .list li {
+	width: 33%;
+	height: 125px;
+	overflow: hidden;
+	margin-right: 1.2px;
+	float: left;
+	/*background-color: cornflowerblue;*/
+}
+
+.part_hotPhotographer .list li img {
+	width: 100%;
+	/*height: 100%;*/
+	/*margin-top: -50px;*/
+}
+
+/*part_medalWorks*/
+.part_medalWorks{
+	margin-top: 15px;
+	background-color: #fff;
+}
+.part_medalWorks .title {
+	padding: 13px 12px;
+	font-size: 15px;
+	border-bottom: 1px solid #ddd;
+}
+.part_medalWorks .list{
+	/*
+	 * display:flex 是一种布局方式。它即可以应用于容器中，也可以应用于行内元素。
+	 * Flex是Flexible Box的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性。
+	 * 设为Flex布局以后，子元素的float、clear和vertical-align属性将失效。
+	 * 
+	 * flex-wrap: wrap; 容器内元素换行,
+	 */
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.part_medalWorks .list li{
+	
+	/*
+	 * box-flex 属性规定框的子元素是否可伸缩其尺寸。
+	 * 可伸缩元素能够随着框的缩小或扩大而缩写或放大。
+	 * 只要框中有多余的空间，可伸缩元素就会扩展来填充这些空间。
+	 */
+	-webkit-box-flex: 1;
+	overflow: hidden;
+	width: 50%;
+	box-sizing: border-box;
+	margin-bottom: 2px;
+	padding-right: 2px;
+}
+.part_medalWorks .list .img-item{
+	width: 100%;
+	padding-top: 100%;
+	/*配合上面的box-flex用，不然内容无法显示*/
+	position: relative;
+}
+.part_medalWorks .list .img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	/*display: inline-block;*/
+}
+.part_medalWorks .list .img img{
+	opacity: 1;
+    display: block;
+    margin-left: auto;
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+}
+
+/*part_appDown*/
+.part_appDown .down_app{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background-color: #3f9adc;
+	color: #fff;
+	font-size: 16px;
+}
+
+/*part_appLogo*/
+.part_appLogo{
+	padding-bottom: 60px;
+	text-align: center;
+	/*margin-bottom: 500px;*/
+}
+.part_appLogo p{
+	font-size: 14px;
+	color: #444;
+	padding: 35px 0 55px;
+}
+.part_appLogo img{
+	width: 40%;
+	margin: 0 auto;
+	
+}

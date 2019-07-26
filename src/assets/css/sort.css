@@ -1,0 +1,51 @@
+.sort-wrap{
+	padding-top: 44px;
+	/*overflow: hidden;*/
+	text-align: center;
+	
+}
+.sort-wrap li{
+	display: block;
+	overflow: hidden;
+	
+}
+.sort-wrap li a{
+	display: block;
+	width: 100%;
+	height: 120px;
+	background-color: #E7EAEE;
+	text-align: center;
+	position: relative;
+}
+.sort-wrap li a .sortImg{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.sort-wrap li a .sortShadow{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	background:rgba(0,0,0,.2);
+	width: 100%;
+	height: 100%;
+}
+.sort-wrap li a dl{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	transform: translate(0,-50%);
+	text-align: center;
+	color: #fff;
+}
+.sort-wrap li a dl dt{
+	font-size: 18px;
+}
+.sort-wrap li a dl dd{
+	font-size: 12px;
+}
